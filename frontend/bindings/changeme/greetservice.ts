@@ -5,6 +5,12 @@
 // @ts-ignore: Unused imports
 import { Call as $Call, CancellablePromise as $CancellablePromise, Create as $Create } from "@wailsio/runtime";
 
+/**
+ * Create a greeting message for the provided name.
+ *
+ * @param name - The name to include in the greeting
+ * @returns The greeting message for `name`
+ */
 export function Greet(name: string): $CancellablePromise<string> {
     return $Call.ByID(1411160069, name);
 }
