@@ -1,3 +1,8 @@
+/**
+ * Root React component that renders a centered header with the text "Wails + React".
+ *
+ * @returns A JSX element containing a full-viewport, centered container with a styled heading.
+ */
 function App() {
   return (
     <div className="flex flex-col items-center bg-black justify-center min-h-screen">
